@@ -1,0 +1,215 @@
+/* topbar */
+.topbar_helber {
+  background-color: burlywood;
+}
+.padding_2 {
+  padding-left: 35em;
+}
+
+/* main-nav ul ul {
+  display: none;
+} */
+/* mouse ochihod list gargaj irj bgaa */
+body {
+  background-color: #fde0c2;
+}
+.con {
+  margin: 0;
+}
+.main-nav ul li:hover > ul {
+  display: block;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 0px 0px 7px 0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbarSupportedContent {
+  background-color: #fde0c2;
+}
+/*  dropdwon hiij baigaa */
+.main-nav ul ul {
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  display: none;
+  position: absolute;
+  top: 3em;
+  left: 0;
+  z-index: 99999;
+  width: 200px;
+  background: #ffffff;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.main-nav li {
+  list-style-type: none;
+  position: relative;
+  width: 150px;
+}
+.main-nav {
+  padding-left: 2em;
+  padding-top: 30px;
+}
+
+.menu {
+  font-weight: 700;
+  text-align: center;
+  padding: 0;
+  background-color: #fde0c2;
+  display: flex;
+  justify-content: center;
+}
+.sub-menu-toggle {
+  display: none;
+}
+.toggle-nav {
+  display: none !important;
+}
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
+
+/* swiper */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.slider {
+  height: 600px;
+  position: relative;
+}
+.slider .swiper-container {
+  height: 600px;
+  position: relative;
+}
+.slider .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.slider .caption {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  z-index: 99;
+  text-align: left;
+}
+.slider .caption h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  line-height: 1;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.slider .caption p {
+  color: #fff;
+  font-size: 18px;
+  font-family: Roboto;
+}
+.slider .bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  z-index: 9999;
+}
+.slider .bottom .fa {
+  font-size: 36px;
+  color: #fff;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 30px;
+}
+
+/* POST */
+.pra {
+  font-size: small;
+}
+.title_1 a {
+  font-size: 20px;
+}
+.n1 {
+  height: 100%;
+}
+.imgstyle {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.navbar {
+  padding: 0;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+/* footer */
+
+.col-sm {
+  list-style-type: none;
+}
+a {
+  color: #000;
+  font-size: smaller;
+}
+/* About us page */
+
+.aboutUs {
+  padding: 50px;
+  text-align: justify;
+}
+
+/* vilchilgeenii nohtsol */
+
+.vilch {
+  clear: both;
+}
+.footer_tailbar {
+  font-size: smaller;
+}
